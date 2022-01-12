@@ -1,0 +1,49 @@
+.container {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+
+    input {
+        width: 20px;
+        height: 20px;
+    }
+
+    strong {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-left: .5rem;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        &.completed {
+            color: #606060;
+            text-decoration: line-through;
+        }
+    }
+}
+
+.deleteButton {
+    background-color: transparent;
+    color: #aaa;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    transition: all .5s;
+
+    &:hover {
+        color: #000;
+    }
+
+    &:active {
+        transform: scale(.9);
+    }
+}

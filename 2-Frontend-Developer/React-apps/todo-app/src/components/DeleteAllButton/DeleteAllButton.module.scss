@@ -1,0 +1,28 @@
+.button {
+    background-color: #c93b3b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    font-size: 1rem;
+    margin-left: auto;
+    outline: none;
+    padding: 1rem 1.5rem;
+    transition: all .3s;
+
+    &:hover {
+        background-color: #e24646;
+    }
+
+    &:active {
+        background-color: #c02323;
+    }
+
+    span {
+        font-size: 20px;
+    }
+}
