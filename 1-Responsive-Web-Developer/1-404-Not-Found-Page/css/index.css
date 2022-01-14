@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.header,
+.content,
+.footer {
+    max-width: 1200px;
+    width: 90%;
+}
+
+.header {
+    animation: fadeIn 1s 1s forwards;
+    transform: translateY(-150%);
+    opacity: 0;
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+    font-size: .7rem;
+    margin: 2rem auto 3rem;
+    text-transform: uppercase;
+}
+
+.content {
+    animation: fadeIn 1.5s 1.5s forwards;
+    transform: translateY(20%);
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4rem auto;
+    width: 100%;
+}
+
+.content__illustration {
+    max-width: 35rem;
+    width: 100%;
+}
+
+.content__description {
+    font-family: "Space Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 35rem;
+    width: 90%;
+}
+
+.content__description h2 {
+    color: #333333;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content__description p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: -0.035em;
+    max-width: 20rem;
+    margin: 2rem 0 3rem;
+}
+
+.content__description button {
+    background: #333333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.content__description button:hover {
+    background: #111;
+}
+
+.content__description button:active {
+
+    transform: scale(0.95);
+}
+
+.footer {
+    animation: fadeIn 1.5s 2s forwards;
+    transform: translateY(50%);
+    opacity: 0;
+    font-family: "Space Mono", monospace;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+.footer a {
+    color: #c9400e;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .content__description h2 {
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }
+}
