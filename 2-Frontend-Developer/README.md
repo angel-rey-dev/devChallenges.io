@@ -8,6 +8,17 @@
 <br/>
 </div>
 
+## Rules:
+✅ Use a Front-end Framework and choose any Frameworks or Libraries
+
+✅ Fulfill all the user stories
+
+✅ Follow the design, you can add animations, new pages, empty state,...
+
+🚫 Do not copy existing solutions
+  <br/>
+  <br/>
+
 <div align="center">
   
 ## Challenges
