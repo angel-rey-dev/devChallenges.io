@@ -27,7 +27,7 @@ Learn and Practice Responsive Web Development by building 8 Websites with given 
 <img src="https://ik.imagekit.io/8k98kll7xyh/devChallenges_io/resp-1_uaC9Vs0Kgs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1642201103566" width="100%" /><br/><br/>
 <img src="https://ik.imagekit.io/8k98kll7xyh/devChallenges_io/resp-2_dbhMaTg1wB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1642201104109" width="100%" /><br/><br/>
 <img src="https://ik.imagekit.io/8k98kll7xyh/devChallenges_io/resp-3_jz4spCNR6rVx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1642201103965" width="70%" />
-  
+<!--   
 
 ## Challenge #1 - 404 Not Found
 
@@ -65,5 +65,5 @@ Learn and Practice Responsive Web Development by building 8 Websites with given 
 ## Challenge #8 - Portfolio
 
 <img src="https://ik.imagekit.io/8k98kll7xyh/devChallenges_io/responsive/a8fcb69d-a509-4586-8a74-9d9c0dda8860_Bs2FY-Ixr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1642206378011" width="60%" />
-  
+   -->
 </div>
